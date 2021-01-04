@@ -6,6 +6,7 @@ body
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: hsla(210, 100%, 50%, 0.7);
 }
 #container
 {
@@ -13,7 +14,8 @@ body
     padding: 1em;
     text-align: left;
     border: 1px solid #DDD;
-    margin: 0 auto;
+    margin: 10 auto;
+    background-color: aliceblue;
 }
 
 #container h1
@@ -21,7 +23,10 @@ body
     font-size: 20px;
 }
 #cabecera
-{
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(159, 32, 178);
     color: white;
     padding: 0px, 10px, 10px, 0px;
