@@ -37,3 +37,11 @@ body
     font-size: 20px;
     padding-left: 2%;
 }
+#footer
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: lawngreen;
+    margin-bottom: -15px;
+}
